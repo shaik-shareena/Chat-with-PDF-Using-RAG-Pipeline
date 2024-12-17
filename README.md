@@ -7,6 +7,7 @@ embed, and store the data for eFicient retrieval. It will answer user queries an
 comparisons accurately, leveraging the selected LLM model for generating responses.
 
 **Functional Requirements**
+
 **1. Data Ingestion**
 • Input: PDF files containing semi-structured data.
 • Process:
