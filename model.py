@@ -14,7 +14,7 @@ class RAGPDFBot:
         load_dotenv()
         self.file_path=""
         self.user_input=""
-        self.sec_id=os.getenv("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")
+        self.sec_id=os.getenv("Give huggingface access token")
         self.repo_id = "mistralai/Mixtral-8x7B-Instruct-v0.1"
     
     def build_vectordb(self,chunk_size,overlap,file_path):
