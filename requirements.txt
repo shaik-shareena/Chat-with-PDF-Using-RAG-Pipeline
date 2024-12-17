@@ -1,0 +1,10 @@
+langchain
+transformers
+chromadb
+sentence_transformers
+langchain-huggingface
+accelerate
+bitsandbytes
+huggingface_hub
+langchain-community
+streamlit
