@@ -10,6 +10,7 @@ comparisons accurately, leveraging the selected LLM model for generating respons
 
 **1. Data Ingestion**
 • Input: PDF files containing semi-structured data.
+
 • Process:
 o Extract text and relevant structured information from PDF files.
 o Segment data into logical chunks for better granularity.
@@ -18,6 +19,7 @@ o Store embeddings in a vector database for eFicient similarity-based retrieval.
 
 **2. Query Handling**
 • Input: User's natural language question.
+
 • Process:
 o Convert the user's query into vector embeddings using the same embedding
 model.
@@ -28,6 +30,7 @@ generate a detailed response.
 
 **3. Comparison Queries**
 • Input: User's query asking for a comparison
+
 • Process:
 o Identify and extract the relevant terms or fields to compare across multiple PDF
 files.
@@ -37,6 +40,7 @@ o Generate a structured response (e.g., tabular or bullet-point format).
 
 **4. Response Generation**
 • Input: Relevant information retrieved from the vector database and the user query.
+
 • Process:
 o Use the LLM with retrieval-augmented prompts to produce responses with exact
 values and context.
