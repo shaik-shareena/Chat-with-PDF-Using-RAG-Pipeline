@@ -6,3 +6,8 @@ interact with semi-structured data in multiple PDF files. The system should extr
 embed, and store the data for eFicient retrieval. It will answer user queries and perform
 comparisons accurately, leveraging the selected LLM model for generating responses.
 
+**Functional Requirements**
+**1. Data Ingestion**
+**• Input:**PDF files containing semi-structured data.
+**Process:**
+o Extract text and relevant structured information from PDF files.
