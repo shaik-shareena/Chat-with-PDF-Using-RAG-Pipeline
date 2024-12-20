@@ -1,10 +1,10 @@
-langchain
-transformers
-chromadb
-sentence_transformers
-langchain-huggingface
-accelerate
-bitsandbytes
-huggingface_hub
-langchain-community
-streamlit
+pip install cohere
+pip install langchain
+pip install transformers
+pip install chromadb
+pip install sentence_transformers
+pip install langchain-huggingface
+pip install accelerate
+pip install bitsandbytes
+pip install streamlit
+pip install python-dotenv
