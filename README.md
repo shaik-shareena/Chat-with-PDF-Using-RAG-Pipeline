@@ -3,7 +3,7 @@
 
 The goal is to implement a Retrieval-Augmented Generation (RAG) pipeline that allows users to
 interact with structured data in  PDF files. The system should extract, chunk,
-embed, and store the data for eFicient retrieval. It will answer user queries and perform
+embed, and store the data for efficient retrieval. It will answer user queries and perform
 comparisons accurately, leveraging the selected LLM model for generating responses.
 
 **Functional Requirements**
